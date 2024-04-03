@@ -26,13 +26,11 @@ input {
     border-radius: 5px;
     padding: 7px;
 }
-.lado{
+.enderecoItem{
     display: flex;
     flex-wrap: wrap;
 }
 form input[type = "text"]{
-    margin-left: 56px;
-    margin-top: 70px;
     text-align: center;
     border-color: white;
     background-color: white;
@@ -42,23 +40,55 @@ form input[type= "text"]::placeholder{
     color: black;
 }
 
-form input[type="button"]{
-width: 30px;
+.addButton{
+width:30px;
+height: 30px;
+margin-top: 2px;
+border-radius: 5px;
 background-color: white;
 border-color: white;
-margin-right: 20px;
 }
 
-form input[type = "submit"]{
-    margin-top: 10px;
+.addButton:hover{
+    background-color:#FF6B01;
+    color:white;
+    border-color:#FF6B01;
+}
+
+form button[type = "submit"]{
+    margin-left: 57px;
+    margin-top: 5px;
     width: 188px;
+    height: 33px;
+    border-radius: 5px;
     border-color:#FF6B01;
     background-color:#FF6B01;
     color:white;
 }
 
-form input[type= "submit"]:hover{
+form button[type= "submit"]:hover{
     background-color:#FF6B01;
     color:white;
     border-color:white;
+}
+/*----------------------------------------*/
+
+.enderecoItem2{
+    display: flex;
+}
+.novoCampo{
+    margin-top: 5px;
+}
+
+.removeButton{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: white;
+}
+.removeButton:hover{
+    background-color:#FF6B01;
+    color:white;
+    border-color:#FF6B01;
 }
